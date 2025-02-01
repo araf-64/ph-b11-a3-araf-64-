@@ -69,7 +69,7 @@
       <section class="w-11/12 mx-auto">
         <!-- Banner title section -->
         <div class="text-center space-y-8 mt-24 mb-10">
-          <h1 class="text-6xl font-semibold">
+          <h1 class="text-5xl md:text-6xl font-semibold">
             Freshness
             <span class="text-green-600">You Can <br />Count </span>On, Prices
             You’ll Love!
@@ -375,7 +375,7 @@
       </section>
 
       <!-- Arrival and offer section -->
-      <section class="w-11/12 p-0 md:p-16 mx-auto mb-16">
+      <section class="w-11/12 p-0 md:p-16 mx-auto mb-96">
         <h2 class="text-4xl text-green-600 font-semibold my-12">
           Arrival and Offer
         </h2>
@@ -427,14 +427,54 @@
         </div>
       </section>
 
+      <!-- Grocery news section -->
+      <section
+        class="absolute bottom-80 md:bottom-80 left-0 right-0 mx-auto w-11/12 bg-[#EFEBE3] rounded-3xl p-0 md:p-16 mb-24 md:mb-16"
+      >
+        <div
+          class="flex flex-col justify-between items-center md:flex-row gap-10 px-12 py-12 lg:py-0"
+        >
+          <!-- News image -->
+          <div>
+            <img src="c2-assets/vegetable-busket.png" alt="" />
+          </div>
+
+          <!-- News info/mail -->
+          <div class="flex flex-col items-center md:items-start gap-5">
+            <h3
+              class="text-2xl md:text-3xl text-green-600 md:text-black font-semibold"
+            >
+              Get Grocery News!
+            </h3>
+            <p class="text-center md:text-start">
+              Exclusive training tips, ticks, product deals and more.
+            </p>
+            <input
+              class="text-sm py-5 pl-4 pr-20 rounded-lg"
+              type="email"
+              name=""
+              id=""
+              placeholder="Enter Email..."
+            />
+            <button class="bg-green-600 text-white rounded-md px-6 py-2">
+              Subscribe
+            </button>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!-- Footer section -->
-    <footer class="bg-green-600">
-      <div class="w-11/12 flex flex-col md:flex-row justify-between items-start md:items-center gap-10 py-10 md:p-16 mx-auto">
+    <footer class="bg-green-600 pt-96">
+      <div
+        class="w-11/12 flex flex-col md:flex-row justify-between items-start md:items-center gap-10 py-10 md:p-16 mx-auto"
+      >
         <div>
-          <img src="c2-assets/logo-footer.png" alt="">
-          <p class="text-white">Discover a world of treats, toys, and essentials handpicked for your furry friends</p>
+          <img src="c2-assets/logo-footer.png" alt="" />
+          <p class="text-white">
+            Discover a world of treats, toys, and essentials handpicked for your
+            furry friends
+          </p>
         </div>
 
         <div class="text-white">
@@ -448,15 +488,14 @@
         <div class="text-white">
           <p>Follow us</p>
           <!-- Footer icon container -->
-           <div class="flex gap-3">
+          <div class="flex gap-3">
             <i class="fa-brands fa-facebook"></i>
             <i class="fa-brands fa-square-instagram"></i>
             <i class="fa-brands fa-linkedin"></i>
             <i class="fa-brands fa-youtube"></i>
-           </div>
+          </div>
         </div>
       </div>
-
     </footer>
   </body>
 </html>
